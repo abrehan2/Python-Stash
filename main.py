@@ -36,7 +36,16 @@ value = 5
 # print("You are " + age +" years old.")
 
 # BUILD A BASIC CALCULATOR -
-num_one = input("Enter the first value?:\n")
-num_two = input("Enter the second value?:\n")
-result = float(num_one) + float(num_two)
-print(result)
+# num_one = input("Enter the first value?:\n")
+# num_two = input("Enter the second value?:\n")
+# result = float(num_one) + float(num_two)
+# print(result)
+
+# LISTS -
+information = ["Abdul Rehan", 21, "SWE @ AU"]
+information[2] = "SDE @ AU"
+print(information[-1])
+print(information[0])
+print(information[1])
+print(information[1:])
+print(information[0:2])
