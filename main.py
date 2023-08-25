@@ -28,3 +28,15 @@ value = 5
 # print(floor(3.5)) # - it requires the use of the math library
 # print(ceil(3.5)) # - it requires the use of the math library
 # print(sqrt(2)) # - it requires the use of the math library
+
+# GET INPUT FROM USER -
+# name = input("Enter your name?\n")
+# age = input("Enter your age?\n")
+# print("Welcome, " +  name + "!")
+# print("You are " + age +" years old.")
+
+# BUILD A BASIC CALCULATOR -
+num_one = input("Enter the first value?:\n")
+num_two = input("Enter the second value?:\n")
+result = float(num_one) + float(num_two)
+print(result)
