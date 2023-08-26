@@ -42,10 +42,35 @@ value = 5
 # print(result)
 
 # LISTS -
-information = ["Abdul Rehan", 21, "SWE @ AU"]
-information[2] = "SDE @ AU"
-print(information[-1])
-print(information[0])
-print(information[1])
-print(information[1:])
-print(information[0:2])
+# information = ["Abdul Rehan", 21, "SWE @ AU"]
+# information[2] = "SDE @ AU"
+# print(information[-1])
+# print(information[0])
+# print(information[1])
+# print(information[1:])
+# print(information[0:2])
+
+# LISTS FUNCTIONS -
+# lucky_numbers = [4,6,8,9,3,2,5,0,11]
+# friends = ['Qasim', 'Ali', 'Shahmeer', 'Fatima']
+# friends.extend(lucky_numbers) # - the friends list will have all the elements of lucky_numbers list as well
+# friends.append("Rehan") # - it adds individual elements at the end of a list
+# friends.insert(0, "Najam") # - it adds an individual element in a list
+# friends.remove("Fatima") # - it removes an individual element from a list
+# friends.clear() # - it removes all the elements from a list
+# friends.pop() # - it removes an element from the end of a list
+# print(friends.index("Najam")) # - it gives an index of an element from a list
+# print(friends.count("Najam")) # - it will tell me how many times the value 'Najam" has come in a list
+# friends.sort() # - it sorts a list in the ascending order
+# friends.reverse() # - it reverses the order of a list
+# friends2 = friends.copy() # - friends2 will have all the same elements of 'friends'
+# print(friends2)
+
+# TUPLES -
+# IT IS A TYPE OF DATA STRUCTURE THAT CANNOT BE CHANGED OR MODIFIED ONCE CREATED
+# coordinates = (4,5)
+# print(coordinates[0])
+
+# FUNCTIONS -
+def hello(name, num): print("Hello, " + name + "! with " + str(num))
+hello("Rehan", 26)
