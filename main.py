@@ -72,5 +72,25 @@ value = 5
 # print(coordinates[0])
 
 # FUNCTIONS -
-def hello(name, num): print("Hello, " + name + "! with " + str(num))
-hello("Rehan", 26)
+
+# EXAMPLE 1:
+# def hello(name, num): print("Hello, " + name + "! with " + str(num))
+# hello("Rehan", 26)
+
+# EXAMPLE 2:
+# def cube(num):
+# return num*num*num
+# print(cube(3))
+
+# IF STATEMENTS -
+is_male = True
+is_tall = False
+
+if is_male and is_tall:
+    print("You are a tall male")
+
+elif is_male and not(is_tall):
+    print("You are a short male")
+
+else:
+    print("You are either not male or not tall or both")
