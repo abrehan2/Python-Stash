@@ -83,14 +83,55 @@ value = 5
 # print(cube(3))
 
 # IF STATEMENTS -
-is_male = True
-is_tall = False
+# is_male = True
+# is_tall = False
+#
+# if is_male and is_tall:
+#     print("You are a tall male")
+#
+# elif is_male and not(is_tall):
+#     print("You are a short male")
+#
+# else:
+#     print("You are either not male or not tall or both")
 
-if is_male and is_tall:
-    print("You are a tall male")
+# DICTIONARY -
+# Keys need to be unique
+# month = {
+#     "Jan": "January",
+#     "Feb": "February",
+#     "Mar": "March",
+#     1: "EHH"
+# }
+#
+# print(month["Jan"])
+# print(month.get("Mar"))
+# print(month.get("Dec", "Not a valid key"))
+# print(month[1])
+# print(month.get(1))
 
-elif is_male and not(is_tall):
-    print("You are a short male")
+# # WHILE LOOP -
+# i = 1
+# while i <= 10:
+#     print(i)
+#     i+= 1
+#
+# print("DONE WITH LOOP")
 
-else:
-    print("You are either not male or not tall or both")
+# BUILDING A GUESSING GAME -
+secret_word = "Giraffe"
+guess = ""
+guess_count = 0
+guess_limit = 3
+out_of_guesses = False
+
+while guess != secret_word and not(out_of_guesses):
+    if guess_count < guess_limit:
+        guess = input("Enter guess: ")
+        guess_count += 1
+    else:
+        out_of_guesses = True
+
+if out_of_guesses:
+    print("Out of guesses, You lose!")
+else: print("You win!")
