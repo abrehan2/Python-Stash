@@ -4,9 +4,9 @@ from math import *
 # print("Hello world")
 
 # VARIABLES AND DATATYPES -
-user_name = "Abdul Rehan"
-age = 21
-is_user = True
+# user_name = "Abdul Rehan"
+# age = 21
+# is_user = True
 
 # print(is_user)
 
@@ -119,19 +119,121 @@ value = 5
 # print("DONE WITH LOOP")
 
 # BUILDING A GUESSING GAME -
-secret_word = "Giraffe"
-guess = ""
-guess_count = 0
-guess_limit = 3
-out_of_guesses = False
+# secret_word = "Giraffe"
+# guess = ""
+# guess_count = 0
+# guess_limit = 3
+# out_of_guesses = False
+# 
+# while guess != secret_word and not(out_of_guesses):
+#     if guess_count < guess_limit:
+#         guess = input("Enter guess: ")
+#         guess_count += 1
+#     else:
+#         out_of_guesses = True
+# 
+# if out_of_guesses:
+#     print("Out of guesses, You lose!")
+# else: print("You win!")
 
-while guess != secret_word and not(out_of_guesses):
-    if guess_count < guess_limit:
-        guess = input("Enter guess: ")
-        guess_count += 1
-    else:
-        out_of_guesses = True
+# FOR LOOP -
+# for letter in "Rehan":
+#     print(letter)
 
-if out_of_guesses:
-    print("Out of guesses, You lose!")
-else: print("You win!")
+# food = ["Pizza", "Burger"]
+# len(food)
+# for f in food:
+#     print(f)
+
+# for i in range(10):
+#     print(i)
+
+# for i in range(3, 10):
+#     print(i)
+
+# food = ["Pizza", "Burger"]
+# for i in range(len(food)):
+#     print(i, food[i])
+
+# EXPONENT FUNCTION -
+# print(2**3) # 2^3
+# def raise_to_power(base_num, pow_num):
+#     result = 1
+#     for i in range(pow_num):
+#         result *= base_num
+#
+#     return result
+#
+# print(raise_to_power(2, 3))
+
+# 2D LISTS & NESTED LOOPS -
+# number_grid = [
+#     [1,2,3],
+#     [4,5,6],
+#     [7,8,9],
+#     [0]
+# ] # 4 - rows & 3 - cols
+
+# print(number_grid[3][0])
+
+# for row in number_grid:
+#    for col in row:
+#        print(col)
+
+# TRY EXCEPT -
+
+# try:
+#    answer = 10/0
+#    number = int(input("Enter a number: \n"))
+#    print(number)
+# except ZeroDivisionError as err:
+#     # value = 10/0 - for this types of errors
+#     print(err)
+# except ValueError:
+#     print("Invalid value")
+
+# CLASSES & OBJECTS -
+# class Student:
+#     def __init__(self, name, age):
+#      self.name = name
+#      self.age = age
+#
+# class Person(Student):
+#    pass#
+#
+# student = Student("Ali", 21)
+# person = Person("Rehan", 23)#
+#
+# print(student.name)
+
+# POLYMORPHISM
+# class Car:
+#   def __init__(self, brand, model):
+#     self.brand = brand
+#     self.model = model
+#
+#   def move(self):
+#     print("Drive!")
+#
+# class Boat:
+#   def __init__(self, brand, model):
+#     self.brand = brand
+#     self.model = model
+#
+#   def move(self):
+#     print("Sail!")
+#
+# class Plane:
+#   def __init__(self, brand, model):
+#     self.brand = brand
+#     self.model = model
+#
+#   def move(self):
+#     print("Fly!")
+#
+# car1 = Car("Ford", "Mustang")       #Create a Car class
+# boat1 = Boat("Ibiza", "Touring 20") #Create a Boat class
+# plane1 = Plane("Boeing", "747")     #Create a Plane class
+#
+# for x in (car1, boat1, plane1):
+#   x.move()
