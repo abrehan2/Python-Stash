@@ -72,7 +72,6 @@ value = 5
 # print(coordinates[0])
 
 # FUNCTIONS -
-
 # EXAMPLE 1:
 # def hello(name, num): print("Hello, " + name + "! with " + str(num))
 # hello("Rehan", 26)
@@ -181,7 +180,6 @@ value = 5
 #        print(col)
 
 # TRY EXCEPT -
-
 # try:
 #    answer = 10/0
 #    number = int(input("Enter a number: \n"))
